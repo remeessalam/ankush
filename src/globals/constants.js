@@ -1,7 +1,38 @@
 import imageOne from "../assets/images/chooseus1.webp";
 import imageTwo from "../assets/images/chooseus2.webp";
 import imageThree from "../assets/images/chooseus3.webp";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
+import BayutImg from "../assets/web-development-portfolio/bayut.png";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
+import EmergencyMusicImg from "../assets/web-development-portfolio/emergency music .png";
+import FlatiornImg from "../assets/web-development-portfolio/flatiorn.png";
+import MavenImg from "../assets/web-development-portfolio/maven.png";
+import MenissaCateringsImg from "../assets/web-development-portfolio/menissa caterings.png";
+import MethodistImg from "../assets/web-development-portfolio/methodist.png";
+import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+
+// Import all images at the top (App Development)
+import DubaiTravelGuideImg from "../assets/app-development-portfolio/dubai travel guide.png";
+import EloraHairPalourImg from "../assets/app-development-portfolio/elora hair palour.png";
+import EvansFrancisImg from "../assets/app-development-portfolio/evans francis.png";
+import HouseOfDeliverenceImg from "../assets/app-development-portfolio/house of deliverence.png";
+import MybitsShopImg from "../assets/app-development-portfolio/mybitsshop.png";
+import NamazImg from "../assets/app-development-portfolio/namaz.png";
+import PoteaImg from "../assets/app-development-portfolio/potea.png";
+import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
 import { FaLaptopCode, FaMobileAlt, FaChartLine } from "react-icons/fa";
+import {
+  FaApple,
+  FaAndroid,
+  FaCode,
+  FaCogs,
+  FaBug,
+  FaSyncAlt,
+} from "react-icons/fa";
+import { FaShoppingCart, FaEdit, FaSearch, FaDesktop } from "react-icons/fa";
+
 import logo from "../assets/images/Logo/Logo.png";
 export { logo };
 
@@ -130,122 +161,200 @@ export const allServices = [
 ];
 
 // services for web development
+
 export const webDevelopmentServices = [
   {
-    image: <i className="flaticon-web-development" />,
-    heading: "E-commerce Solutions",
-    description: "Boost your sales with custom-designed online stores.",
+    image: <FaLaptopCode />,
+    heading: "Custom Web Development",
+    description:
+      "We focus on delivering personalized websites that align with your business goals. Whether you’re launching a brand-new site or revamping an existing one, our development team ensures your website is responsive, user-friendly, and optimized for performance across all devices.",
   },
   {
-    image: <i className="flaticon-coding" />,
-    heading: "Website Maintenance",
-    description: "Keeping your site updated and running smoothly.",
+    image: <FaShoppingCart />,
+    heading: "E-commerce Development",
+    description:
+      "If you're looking to take your business online, we build secure, scalable e-commerce websites that make it easy for customers to shop, purchase, and return. We handle everything from custom store designs to payment integration, ensuring your e-commerce platform delivers a seamless shopping experience.",
   },
   {
-    image: <i className="flaticon-web-programming" />,
+    image: <FaEdit />,
+    heading: "CMS Solutions",
+    description:
+      "With powerful content management systems like WordPress, Joomla, and Drupal, we give you the tools you need to manage and update your website with ease. We build user-friendly CMS websites that allow you to handle your content without technical expertise.",
+  },
+  {
+    image: <FaDesktop />,
+    heading: "Website Redesign",
+    description:
+      "If your current website feels outdated or isn’t meeting your business goals, we offer redesign services to give your site a fresh, modern look. We’ll enhance both design and functionality to ensure your website works hard for you and your customers.",
+  },
+  {
+    image: <FaSearch />,
     heading: "SEO Optimization",
     description:
-      "Ensuring your site is easily found with on-page SEO best practices.",
+      "A great website is only effective if it can be found. Our SEO services ensure that your website is optimized for search engines, improving your visibility and driving organic traffic to your site. From keyword research to on-page optimization, we make sure your site ranks well on search engines.",
   },
   {
-    image: <i className="flaticon-web-design" />,
-    heading: "Custom Web Design",
+    image: <FaSyncAlt />,
+    heading: "Website Maintenance & Support",
     description:
-      "Tailored websites that reflect your brand and engage your target audience",
-  },
-  {
-    image: <i className="flaticon-responsive" />,
-    heading: "Responsive Design",
-    description:
-      "Seamless user experience across all devices—desktop, tablet, and mobile.",
+      "Your website needs ongoing care to remain secure, up-to-date, and fully functional. We provide comprehensive maintenance and support services to keep your site running smoothly and ensure it remains relevant as your business grows.",
   },
 ];
 
 // services for mobile development
 export const appDevelopmentServices = [
   {
-    image: <i className="flaticon-app-development" />,
+    image: <FaMobileAlt />,
     heading: "Custom App Development",
-    description: "Tailored apps designed for your unique business needs.",
-  },
-  {
-    image: <i className="flaticon-software-development" />,
-    heading: "Cross-Platform Solutions",
     description:
-      "Apps that perform seamlessly across iOS, Android, and web platforms.",
+      "We specialize in building custom mobile apps tailored to your business needs. Whether it’s for iOS, Android, or both, we ensure your app is not only feature-rich but also intuitive, fast, and easy to use for your audience.",
   },
   {
-    image: <i className="flaticon-web-design" />,
-    heading: "UX/UI Design",
+    image: <FaApple />,
+    heading: "Native iOS Development",
     description:
-      "Intuitive and attractive designs for an outstanding user experience.",
+      "We offer expert development services for iOS platforms, creating high-performance, native apps that provide seamless user experiences and function flawlessly on Apple devices.",
   },
   {
-    image: <i className="flaticon-web-programming" />,
-    heading: "Backend Development",
-    description: "Secure and scalable backend services to support your app.",
+    image: <FaAndroid />,
+    heading: "Native Android Development",
+    description:
+      "We provide specialized Android app development services, ensuring apps are optimized for performance, security, and user experience across a wide range of Android devices.",
   },
   {
-    image: <i className="flaticon-coding" />,
-    heading: "App Maintenance and Updates",
-    description: "Ensuring your app stays up-to-date and fully functional.",
+    image: <FaCode />,
+    heading: "Cross-Platform App Development",
+    description:
+      "With cross-platform development frameworks like React Native and Flutter, we develop apps that work across both iOS and Android, reducing development time and costs while ensuring your app performs well on both platforms.",
+  },
+  {
+    image: <FaCogs />,
+    heading: "App Integration & API Development",
+    description:
+      "We understand that many apps need to integrate with other systems or third-party services. Our team can help connect your app to external APIs or integrate it with your existing software to ensure seamless functionality and data sharing.",
+  },
+  {
+    image: <FaBug />,
+    heading: "App Testing & Quality Assurance",
+    description:
+      "We ensure that your app functions smoothly across different devices and platforms. Our rigorous testing process covers all aspects of the app, from functionality to security, ensuring that everything works as it should before launch.",
+  },
+  {
+    image: <FaSyncAlt />,
+    heading: "App Support & Maintenance",
+    description:
+      "After your app is launched, we’re here to provide ongoing maintenance and updates to ensure your app remains up-to-date, secure, and continuously improves to meet the evolving needs of your users.",
   },
 ];
 
 // portfolio images (web development)
+
 export const webPortfolio = [
   {
     id: 1,
-    img: require("../assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require("../assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: BayutImg,
+    title: "Bayut",
+    link: "https://www.bayut.com",
   },
   {
     id: 3,
-    img: require("../assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 4,
-    img: require("../assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    img: EmergencyMusicImg,
+    title: "Emergency Music",
+    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
   },
   {
     id: 5,
-    img: require("../assets/images/web_projects/5.webp"),
-    title: "FE Group",
+    img: FlatiornImg,
+    title: "Flatiorn",
+    link: "",
   },
   {
     id: 6,
-    img: require("../assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    img: MavenImg,
+    title: "Maven",
+    link: "",
+  },
+  {
+    id: 7,
+    img: MenissaCateringsImg,
+    title: "Menissa Caterings",
+    link: "https://messinascatering.com",
+  },
+  {
+    id: 8,
+    img: MethodistImg,
+    title: "Methodist",
+    link: "",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
 ];
 
 // portfolio images (app development)
+
 export const appPortfolio = [
   {
     id: 1,
-    img: require("../assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: DubaiTravelGuideImg,
+    title: "Dubai Travel Guide",
+    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
   },
   {
     id: 2,
-    img: require("../assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: EloraHairPalourImg,
+    title: "Elora Hair Palour",
+    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
   },
   {
     id: 3,
-    img: require("../assets/images/app_projects/3.webp"),
-    title: "Artisan Express",
+    img: EvansFrancisImg,
+    title: "Evans Francis",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("../assets/images/app_projects/4.webp"),
-    title: "House of Deliverance",
+    img: HouseOfDeliverenceImg,
+    title: "House of Deliverence",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
+  },
+  {
+    id: 5,
+    img: MybitsShopImg,
+    title: "Mybits Shop",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
+  },
+  {
+    id: 6,
+    img: NamazImg,
+    title: "Namaz",
+    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+  },
+  {
+    id: 7,
+    img: PoteaImg,
+    title: "Potea",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+  },
+  {
+    id: 8,
+    img: RentopBikeAndCarImg,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
