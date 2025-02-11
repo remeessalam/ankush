@@ -110,7 +110,7 @@ function BannerSliderLandingPage({ page }) {
             </div>
             <div className="sx-bnr-text-masking">
               <div className="light">
-                <h1 className="sx-title">AI Company</h1>
+                <h1 className="sx-title">Ankush Tech Solutions</h1>
               </div>
             </div>
           </swiper-slide>

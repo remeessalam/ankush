@@ -12,7 +12,7 @@ function SectionBlogs1() {
           <div className="section-head center">
             {/* <div className="sx-head-s-title">Our Blogs</div> */}
             <div className="sx-head-l-title">
-              <h2 className="sx-title">Why Choose AI Company</h2>
+              <h2 className="sx-title">Why Choose Ankush Tech Solutions</h2>
               <p>{whyChooseUs.mainHeading}</p>
             </div>
           </div>
@@ -23,9 +23,7 @@ function SectionBlogs1() {
               {whyChooseUs.details.map((obj, i) => (
                 <div key={obj.heading} className="item">
                   <div className="whychoose sx-latest-post-st-1 ">
-                    <div
-                      className="sx-post-media sx-img-effect img-reflection"
-                    >
+                    <div className="sx-post-media sx-img-effect img-reflection">
                       <img src={obj.image} className="chooseusimage" alt="" />
                     </div>
                     <div className="sx-post-info p-t30">

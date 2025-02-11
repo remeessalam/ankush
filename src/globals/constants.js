@@ -1,7 +1,7 @@
 import imageOne from "../assets/images/chooseus1.webp";
 import imageTwo from "../assets/images/chooseus2.webp";
 import imageThree from "../assets/images/chooseus3.webp";
-
+import { FaLaptopCode, FaMobileAlt, FaChartLine } from "react-icons/fa";
 import logo from "../assets/images/Logo/Logo.png";
 export { logo };
 
@@ -32,10 +32,9 @@ export function loadScript(src, fromPublic) {
 }
 
 export const companyDetails = {
-  name: "AI Company",
-  number: "+0000000000",
-  address: "ABC Street, City, Country",
-  address2: "ABC Street, City, Country",
+  name: "Ankush Tech Solutions",
+  number: "+91-9901252792",
+  address: "Aadhya/ #9/731, 9th main, P.J EXT, Davangere-577002",
   email: "abc@xyz.com",
   facebook: "",
   linkedin: "",
@@ -45,7 +44,7 @@ export const companyDetails = {
 
 export const whyChooseUs = {
   mainHeading:
-    "At AI Company, we understand that choosing the right technology partner is crucial for your business's success. Here’s why we stand out in a crowded marketplace",
+    "At Ankush Tech Solutions, we understand that choosing the right technology partner is crucial for your business's success. Here’s why we stand out in a crowded marketplace",
   details: [
     {
       image: imageOne,
@@ -63,7 +62,7 @@ export const whyChooseUs = {
       image: imageThree,
       heading: "Commitment to Innovation",
       description:
-        "In today’s fast-paced digital landscape, staying ahead of the curve is essential. At AI Company, we are dedicated to continual innovation. We adopt the latest technologies and industry best practices to provide you with solutions that not only meet your current needs but also anticipate future trends. Our forward-thinking approach allows your business to remain agile and responsive to market changes.",
+        "In today’s fast-paced digital landscape, staying ahead of the curve is essential. At Ankush Tech Solutions, we are dedicated to continual innovation. We adopt the latest technologies and industry best practices to provide you with solutions that not only meet your current needs but also anticipate future trends. Our forward-thinking approach allows your business to remain agile and responsive to market changes.",
     },
   ],
 };
@@ -103,59 +102,30 @@ export const clientLogos = [
 // all services
 export const allServices = [
   {
-    image: <i className="flaticon-app-development" />,
-    title: "Mobile App Development",
-    shortDesc:
-      "From initial concept to launch, we create mobile apps that are intuitive, high-performing, and designed to engage users on every platform. Whether you need an e-commerce app, a productivity tool, or a unique interactive experience, we build apps that turn first-time users into lifelong fans.",
-    heading: "Mobile App Development: Engaging Apps for Every Platform",
-    description:
-      "Your customers are on the move – and your business should be too. Our mobile app development team specializes in building intuitive, user-centric apps that function seamlessly on any device. Whether you’re envisioning an e-commerce platform, a social app, or a productivity tool, we create mobile applications that combine aesthetics, usability, and high performance. Each app is designed to provide value and a memorable user experience that keeps users coming back.",
-  },
-  {
-    image: <i className="flaticon-web-design" />,
+    image: <FaLaptopCode />,
     title: "Web Development",
     shortDesc:
-      "Your website should be more than a digital presence – it should be an experience. We design responsive, SEO-friendly websites that are visually stunning and highly functional, transforming your online platform into a powerful tool for engagement and conversion.",
-    heading: "Web Development: Building Dynamic Digital Experiences",
+      "We craft high-performance, responsive websites tailored to your business needs. Our web development solutions ensure a seamless user experience, optimized for speed, security, and engagement.",
+    heading: "Web Development: Transform Your Online Presence",
     description:
-      "A website should be more than just an online presence; it should be an experience. Our web development team designs and builds dynamic, responsive, and SEO-friendly websites that are visually compelling and highly functional. We specialize in creating sites that not only captivate visitors but also drive conversions. Whether you need a sleek portfolio, an engaging blog, or a high-performance e-commerce platform, we’re here to bring your vision to life on the web.",
-  },
-
-  {
-    image: <i className="flaticon-web-programming" />,
-    title: "Custom Software Development",
-    shortDesc: `Get solutions that are uniquely yours. Whether you need a sophisticated CRM, a specialized ERP, or any custom-built application, our software development process is designed around your business goals. With an agile approach, we deliver scalable, user-friendly software that aligns with your vision.`,
-    heading:
-      "Custom Software Development: Tailored Solutions for Your Business",
-    description:
-      "Every business has unique needs, and a one-size-fits-all solution just won’t do. Our custom software development service is all about crafting tools that fit perfectly with your workflows and objectives. From CRMs and ERPs to tailored solutions for specific tasks, we work with you to build software that’s flexible, scalable, and designed for your goals. Our team follows an agile development process, ensuring adaptability, speed, and close collaboration with your team.",
+      "Your website is the digital face of your business. Our expert developers build responsive, SEO-friendly, and feature-rich websites that engage visitors and drive conversions. Whether you need an e-commerce platform, a corporate website, or a custom web app, we deliver solutions that set you apart in the digital landscape.",
   },
   {
-    image: <i className="flaticon-software-development" />,
-    title: "Artificial Intelligence Solutions",
+    image: <FaMobileAlt />,
+    title: "App Development",
     shortDesc:
-      "Stay ahead of the curve with AI solutions tailored to your business needs. From predictive analytics to machine learning, our AI technologies help you make smarter decisions, optimize operations, and uncover valuable insights that drive growth.",
-    heading:
-      "AI Development: Harnessing Artificial Intelligence for Business Growth",
+      "Turn your ideas into reality with our custom mobile app solutions. We design and develop innovative applications for iOS and Android that provide seamless functionality and outstanding user experience.",
+    heading: "App Development: Innovative Solutions for Every Business",
     description:
-      "Harness the power of AI to make smarter decisions and optimize your operations. Our AI solutions are tailored to help your business unlock valuable insights, streamline processes, and enhance customer interactions. From predictive analytics to machine learning algorithms, we build AI tools that make your data work for you, uncovering patterns and opportunities that might otherwise be missed.",
+      "Mobile apps are essential for engaging customers in today's fast-paced digital world. Our app development team specializes in building intuitive, high-performance applications that cater to your business objectives. From concept to deployment, we ensure your app meets industry standards and user expectations.",
   },
   {
-    image: <i className="flaticon-coding" />,
-    title: "Chatbot Development",
-    shortDesc: `Enhance customer engagement with smart, efficient chatbots that never sleep. Our chatbots are designed to provide conversational, responsive support around the clock, helping you streamline customer service and deliver a seamless user experience.`,
-    heading: "Chatbot Development: Automating Customer Interactions",
-    description:
-      "In today’s world, customers expect instant responses. Our chatbot development service provides you with a conversational, AI-driven assistant available around the clock. We create intelligent chatbots that engage users, answer questions, and solve problems with ease. Built to understand and learn from interactions, our chatbots deliver seamless experiences across platforms, reducing wait times and enhancing customer satisfaction.",
-  },
-  {
-    image: <i className="flaticon-technical-support" />,
-    title: "Robotic Process Automation (RPA)",
+    image: <FaChartLine />,
+    title: "Digital Strategy & Consulting",
     shortDesc:
-      "Unlock new levels of efficiency with RPA. Our automation services help reduce repetitive tasks, minimize errors, and streamline workflows, freeing up your team to focus on high-value work. Let RPA take care of the routine so you can focus on innovation.",
-    heading: "RPA: Revolutionizing Business Processes with Automation",
-    description:
-      "RPA is transforming the way businesses handle repetitive, rule-based tasks. Our RPA services empower you to automate routine tasks, reducing errors, saving time, and allowing your team to focus on strategic activities. By implementing customized RPA solutions, we help you boost efficiency and enhance productivity without overhauling your entire system.",
+      "A strong digital strategy is key to online success. We help businesses optimize their digital presence with data-driven insights, targeted marketing, and effective SEO techniques.",
+    heading: "Digital Strategy & Consulting: Maximizing Your Online Potential",
+    description: `Building an online presence goes beyond just having a website or an app. You need a well-thought-out digital strategy to ensure everything works together to achieve your business objectives. Our team works with you to create a comprehensive digital strategy that drives engagement, conversions, and growth.\n\n      - Digital Marketing Strategy: We develop data-driven strategies that help you reach your audience through the right channels. From SEO and content marketing to social media and paid advertising, we help you create a strong, multi-channel marketing plan that delivers results.\n\n      - User Experience (UX) Strategy: The user experience (UX) is crucial for the success of your website or app. We create strategies that enhance the user journey, improve engagement, and optimize your platform for higher conversions. Our goal is to create a smooth, seamless experience for every user.\n\n      - Conversion Rate Optimization (CRO): We focus on increasing the effectiveness of your website or app by improving key metrics like conversion rates. From refining your design to simplifying user flows, we apply proven techniques to ensure your digital presence delivers the best results possible.\n\n      - Analytics & Reporting: Data is key to understanding what’s working and what’s not. Our team helps you set up the right analytics tools and generates insightful reports that allow you to track performance, identify trends, and make data-backed decisions.`,
   },
 ];
 

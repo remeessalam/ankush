@@ -35,15 +35,14 @@ function SectionSlider1() {
                   className="sx-bnr-1-small-title"
                   data-swiper-parallax="-300"
                 >
-                  We are Dedicated
+                  Empowering Innovation
                 </span>
                 <h2 className="sx-bnr-1-large-title text-stroke">
-                  Where Innovation Meets Digital Transformation
+                  Transforming Ideas into Digital Excellence
                 </h2>
                 <div className="sx-bnr-1-info ">
-                  Transform how you innovate by leveraging advanced AI
-                  technologies built to adapt and evolve with your business
-                  goals.
+                  Unlock the power of cutting-edge technology to accelerate
+                  growth and drive digital success tailored to your business.
                 </div>
                 <div className="sx-bnr-readmore">
                   <NavLink
@@ -54,19 +53,11 @@ function SectionSlider1() {
                     Read More
                   </NavLink>
                 </div>
-                {/* <div className="sx-bnr-video">
-                  <a
-                    href="https://www.youtube.com/watch?v=c1XNqw2gSbU"
-                    className="mfp-video circle"
-                  >
-                    <i className="flaticon-play" />
-                  </a>
-                </div> */}
               </div>
             </div>
             <div className="sx-bnr-text-masking">
               <div className="light">
-                <h1 className="animate-charcter">AI Solutions</h1>
+                <h1 className="animate-charcter">Tech-Driven Solutions</h1>
               </div>
             </div>
           </swiper-slide>
@@ -85,15 +76,15 @@ function SectionSlider1() {
                   className="sx-bnr-1-small-title"
                   data-swiper-parallax="-300"
                 >
-                  We are The best
+                  Digital Excellence Redefined
                 </span>
                 <h2 className="sx-bnr-1-large-title">
-                  Innovative IT Solutions for a Digital World
+                  Advanced IT Solutions for Future-Ready Businesses
                 </h2>
                 <div className="sx-bnr-1-info">
-                  Revolutionize your business operations with AI, delivering
-                  precision, scalability, and insights to overcome challenges
-                  and achieve lasting success.
+                  Experience seamless digital transformation with AI-powered
+                  solutions designed for efficiency, scalability, and long-term
+                  success.
                 </div>
                 <div className="sx-bnr-readmore">
                   <NavLink
@@ -104,19 +95,11 @@ function SectionSlider1() {
                     Read More
                   </NavLink>
                 </div>
-                {/* <div className="sx-bnr-video">
-                  <a
-                    href="https://www.youtube.com/watch?v=c1XNqw2gSbU"
-                    className="mfp-video circle"
-                  >
-                    <i className="flaticon-play" />
-                  </a>
-                </div> */}
               </div>
             </div>
             <div className="sx-bnr-text-masking">
               <div className="light">
-                <h1 className="sx-title">AI Company</h1>
+                <h1 className="sx-title">AI-Powered Innovation</h1>
               </div>
             </div>
           </swiper-slide>

@@ -57,10 +57,9 @@ body {
   grid-gap: 2rem !important;
 }
 
-.portfolio_grid .item img{
+.portfolio_grid .item img {
   aspect-ratio: 1/1;
 }
-
 
 @media only screen and (max-width: 767px) {
   .portfolio_grid {
@@ -9028,6 +9027,7 @@ New Template Css Start
 }
 
 .sx-bnr-text-masking .light h1 {
+  text-align: right;
   display: inline-table;
   color: rgba(12, 12, 12, 0);
   margin: 0px;

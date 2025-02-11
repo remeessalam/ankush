@@ -1,45 +1,52 @@
 const testimonials = [
   {
     id: 1,
-    name: "Alex R",
-    designation: "Operations Manager, SupplyCo",
+    name: "Jessica H.",
+    designation: "Marketing Director, Bright Solutions",
     review:
-      "Working with AI Company was exactly what we needed to elevate our operations. They listened closely to our requirements and delivered a custom software solution that not only met but exceeded our expectations. The system is user-friendly, flexible, and has significantly streamlined our workflow. The team was proactive, knowledgeable, and truly committed to our project’s success. We couldn’t be happier!",
+      "The team at Ankush Tech Solutions exceeded our expectations. They took the time to understand our specific needs and built a stunning, user-friendly website that has helped boost our traffic and conversions. We've noticed a significant uptick in engagement, and the website now plays a crucial role in our business growth.",
   },
   {
     id: 2,
-    name: "Lisa M",
-    designation: "Customer Experience Director, RetailHub",
+    name: "Mark T.",
+    designation: "CEO, GreenTech Innovations",
     review:
-      "Our customer service has been transformed since we added the chatbot developed by AI Company. The bot engages users effectively, providing fast, accurate answers and reducing wait times. It’s clear they designed it with our customers in mind, and the support we’ve received from their team has been top-notch. We’re seeing great feedback from customers and have freed up our team to focus on more complex issues. A fantastic partnership!",
+      "Collaborating with Ankush Tech Solutions on our app was an amazing experience. From the start to the final product, they provided expert guidance and innovative solutions. The app not only looks incredible but also functions seamlessly, and our customers have been thrilled with the results. We’re so glad we chose them for this project.",
   },
   {
     id: 3,
-    name: "Chris T",
-    designation: "Founder, FitFlow",
+    name: "Sarah P.",
+    designation: "Founder, HealthyBites",
     review:
-      "The mobile app AI Company developed for us has been a hit with our users. From the very beginning, they were attentive to our vision, and the final product is both stunning and highly functional. The app is intuitive, performs flawlessly, and reflects our brand perfectly. They communicated every step of the way, ensuring we were involved and satisfied. We couldn’t ask for a better team to bring our app to life!",
+      "As a startup, we had a tight budget and timeline. Ankush Tech Solutions managed to bring our vision to life with a sleek, effective website that perfectly reflects our brand. Their support doesn’t stop after launch either, as they’ve continued to assist us as we expand. They genuinely care about helping their clients succeed.",
   },
   {
     id: 4,
-    name: "Jessica P",
-    designation: "Marketing VP, TrendWave",
+    name: "Ethan R.",
+    designation: "Director of Operations, The Modern Firm",
     review:
-      "Our business needed more insight into our data, and AI Company delivered a powerful AI solution that’s made a real difference. The AI system provides us with accurate predictions and helps us make better, data-driven decisions. Their team was dedicated to understanding our unique needs and customizing the solution to maximize its impact. Our ability to analyze customer trends and personalize marketing has never been stronger.",
+      "Our old website was outdated and not performing as we hoped, so we decided to invest in a complete redesign. From our first meeting with Ankush Tech Solutions, we felt confident that we were in good hands. They gave our site a fresh, modern look and improved its performance. Now, it’s a key part of our marketing efforts and has helped us reach more customers.",
   },
   {
     id: 5,
-    name: "Mark B",
-    designation: "COO, FinTrust Services",
+    name: "Linda M.",
+    designation: "Product Manager, FinEdge Solutions",
     review:
-      "We turned to AI Company to implement RPA, and the results have been outstanding. Their team analyzed our processes thoroughly and identified tasks that were perfect for automation. The RPA solution has saved us time, reduced errors, and allowed our team to focus on strategic projects. They made the process seamless and were incredibly responsive throughout. This has been a big win for us!",
+      "We needed an app that was both functional and packed with advanced features. Ankush Tech Solutions delivered on all fronts. Their team worked with us closely throughout the development process to create an app that performs beautifully and meets our users’ needs. The feedback from our customers has been overwhelmingly positive, and it’s already making a difference to our business.",
   },
   {
     id: 6,
-    name: "Sandra L",
-    designation: "Owner, GreenLeaf Consulting",
+    name: "James D.",
+    designation: "CEO, Urban Home Decor",
     review:
-      "We had high hopes for our website redesign, and AI Company delivered beyond our expectations. They brought our vision to life with a site that’s professional, attractive, and easy to navigate. Our clients love the new design, and it’s already driving more engagement. Working with their team was a smooth experience, and they took the time to understand our goals. We’re thrilled with the outcome!",
+      "Our experience with Ankush Tech Solutions in SEO and digital marketing was transformative. They helped us rework our entire strategy, leading to increased organic traffic, better rankings on search engines, and a marked increase in conversions. Their expertise and meticulous approach make them an invaluable partner for our business.",
+  },
+  {
+    id: 7,
+    name: "Natalie B.",
+    designation: "COO, Global Outreach Organization",
+    review:
+      "Ankush Tech Solutions provided the exact solutions we didn’t know we needed. Our website and app lacked several essential features, and they helped us redesign them to be more user-friendly and efficient. Their technical know-how and exceptional customer service have made them an irreplaceable part of our team.",
   },
 ];
 

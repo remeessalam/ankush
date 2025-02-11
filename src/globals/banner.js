@@ -1,110 +1,110 @@
 export const bannerData = {
-    about: {
-        background: require('../assets/images/aboutusbanner.jpg'),
-        title: "About Us",
-        crumb: "About Us",
-        watermark: "AI Company"
-    },
-    faq: {
-        background: "images/banner/bnr-4.jpg",
-        title: "Faq Page",
-        crumb: "Faq Page",
-        watermark: "AI Company"
-    },
-    gallery: {
-        background: "images/banner/bnr-2.jpg",
-        title: "Gallery Page",
-        crumb: "Gallery Page",
-        watermark: "AI Company"
-    },
-    icons: {
-        background: "images/banner/bnr-4.jpg",
-        title: "Icons",
-        crumb: "icon-font",
-        watermark: "AI Company"
-    },
-    testimonials: {
-        background: "images/banner/bnr-3.jpg",
-        title: "Testimonials",
-        crumb: "Testimonials",
-        watermark: "AI Company"
-    },
-    whychooseus: {
-        background: "images/banner/bnr-8.jpg",
-        title: "Why Choose us",
-        crumb: "Why Choose us",
-        watermark: "AI Company"
-    },
-    pricing: {
-        background: "images/banner/bnr-7.jpg",
-        title: "Price Table",
-        crumb: "Price Table",
-        watermark: "AI Company"
-    },
-    team: {
-        background: "images/banner/bnr-2.jpg",
-        title: "Team Member",
-        crumb: "Team Member",
-        watermark: "AI Company"
-    },
-    mission: {
-        background: "images/banner/bnr-7.jpg",
-        title: "Mission & Vision",
-        crumb: "Mission & Vision",
-        watermark: "AI Company"
-    },
-    services: {
-        background: require('../assets/images/ourservicesbanner.webp'),
-        title: "Our Services",
-        crumb: "Our Services",
-        watermark: "AI Company"
-    },
-    portfolio1: {
-        background: "images/banner/bnr-4.jpg",
-        title: "Portfolio Page",
-        crumb: "Portfolio",
-        watermark: "AI Company"
-    },
-    portfolio2: {
-        background: "images/banner/bnr-5.jpg",
-        title: "Portfolio-2 Page",
-        crumb: "Portfolio-2 Page",
-        watermark: "AI Company"
-    },
-    portfoliodetail: {
-        background: "images/banner/bnr-7.jpg",
-        title: "Portfolio Detail",
-        crumb: "Portfolio Detail",
-        watermark: "AI Company"
-    },
-    bloggrid: {
-        background: "images/banner/bnr-1.jpg",
-        title: "Blog Page",
-        crumb: "Blog Page",
-        watermark: "AI Company"
-    },
-    bloglistsidebar: {
-        background: "images/banner/bnr-8.jpg",
-        title: "Blog Archive",
-        crumb: "Blog Single Grid",
-        watermark: "AI Company"
-    },
-    blogdetail: {
-        background: "images/banner/bnr-1.jpg",
-        title: "Blog detail",
-        crumb: "Blog detail",
-        watermark: "AI Company"
-    },
-    blogdetailsidebar: {
-        background: "images/banner/bnr-10.jpg",
-        title: "Blog detail",
-        crumb: "Blog detail",
-        watermark: "AI Company"
-    },
-    contact: {
-        background: require('../assets/images/contactbanner.jpg'),
-        title: "Contact Us",
-        crumb: "Contact Us",
-        watermark: "AI Company"
-    }
-}
+  about: {
+    background: require("../assets/images/aboutusbanner.jpg"),
+    title: "About Us",
+    crumb: "About Us",
+    watermark: "Ankush Tech Solutions",
+  },
+  faq: {
+    background: "images/banner/bnr-4.jpg",
+    title: "Faq Page",
+    crumb: "Faq Page",
+    watermark: "Ankush Tech Solutions",
+  },
+  gallery: {
+    background: "images/banner/bnr-2.jpg",
+    title: "Gallery Page",
+    crumb: "Gallery Page",
+    watermark: "Ankush Tech Solutions",
+  },
+  icons: {
+    background: "images/banner/bnr-4.jpg",
+    title: "Icons",
+    crumb: "icon-font",
+    watermark: "Ankush Tech Solutions",
+  },
+  testimonials: {
+    background: "images/banner/bnr-3.jpg",
+    title: "Testimonials",
+    crumb: "Testimonials",
+    watermark: "Ankush Tech Solutions",
+  },
+  whychooseus: {
+    background: "images/banner/bnr-8.jpg",
+    title: "Why Choose us",
+    crumb: "Why Choose us",
+    watermark: "Ankush Tech Solutions",
+  },
+  pricing: {
+    background: "images/banner/bnr-7.jpg",
+    title: "Price Table",
+    crumb: "Price Table",
+    watermark: "Ankush Tech Solutions",
+  },
+  team: {
+    background: "images/banner/bnr-2.jpg",
+    title: "Team Member",
+    crumb: "Team Member",
+    watermark: "Ankush Tech Solutions",
+  },
+  mission: {
+    background: "images/banner/bnr-7.jpg",
+    title: "Mission & Vision",
+    crumb: "Mission & Vision",
+    watermark: "Ankush Tech Solutions",
+  },
+  services: {
+    background: require("../assets/images/ourservicesbanner.webp"),
+    title: "Our Services",
+    crumb: "Our Services",
+    watermark: "Ankush Tech Solutions",
+  },
+  portfolio1: {
+    background: "images/banner/bnr-4.jpg",
+    title: "Portfolio Page",
+    crumb: "Portfolio",
+    watermark: "Ankush Tech Solutions",
+  },
+  portfolio2: {
+    background: "images/banner/bnr-5.jpg",
+    title: "Portfolio-2 Page",
+    crumb: "Portfolio-2 Page",
+    watermark: "Ankush Tech Solutions",
+  },
+  portfoliodetail: {
+    background: "images/banner/bnr-7.jpg",
+    title: "Portfolio Detail",
+    crumb: "Portfolio Detail",
+    watermark: "Ankush Tech Solutions",
+  },
+  bloggrid: {
+    background: "images/banner/bnr-1.jpg",
+    title: "Blog Page",
+    crumb: "Blog Page",
+    watermark: "Ankush Tech Solutions",
+  },
+  bloglistsidebar: {
+    background: "images/banner/bnr-8.jpg",
+    title: "Blog Archive",
+    crumb: "Blog Single Grid",
+    watermark: "Ankush Tech Solutions",
+  },
+  blogdetail: {
+    background: "images/banner/bnr-1.jpg",
+    title: "Blog detail",
+    crumb: "Blog detail",
+    watermark: "Ankush Tech Solutions",
+  },
+  blogdetailsidebar: {
+    background: "images/banner/bnr-10.jpg",
+    title: "Blog detail",
+    crumb: "Blog detail",
+    watermark: "Ankush Tech Solutions",
+  },
+  contact: {
+    background: require("../assets/images/contactbanner.jpg"),
+    title: "Contact Us",
+    crumb: "Contact Us",
+    watermark: "Ankush Tech Solutions",
+  },
+};

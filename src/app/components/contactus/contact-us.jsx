@@ -33,10 +33,10 @@ function ContactUsPage({ setLoading }) {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message - AI Company AI",
+      subject: "You have a new message - Ankush Tech SolutionsAI  AI",
       body: emailBody,
     };
-    
+
     await fetch("https://smtp-api-tawny.vercel.app/send-email", {
       method: "POST",
       headers: {
@@ -141,7 +141,7 @@ function ContactUsPage({ setLoading }) {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 m-b30">
+                    {/* <div className="col-lg-6 col-md-6 m-b30">
                       <div className="sx-icon-bx-5">
                         <div className="sx-media">
                           <i className="flaticon-map-location" />
@@ -155,7 +155,7 @@ function ContactUsPage({ setLoading }) {
                           </Link>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* <div className="col-lg-6 col-md-6 m-b30">
                       <div className="sx-icon-bx-5">
                         <div className="sx-media">
@@ -237,8 +237,7 @@ function ContactUsPage({ setLoading }) {
                             required: "Phone number is required",
                             pattern: {
                               value: /^\+?[0-9]{10,15}$/,
-                              message:
-                                "Entered phone number is invalid",
+                              message: "Entered phone number is invalid",
                             },
                           })}
                         />

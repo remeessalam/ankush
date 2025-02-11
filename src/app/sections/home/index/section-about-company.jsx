@@ -1,6 +1,7 @@
 import { companyDetails, publicUrlFor } from "../../../../globals/constants";
 import ItodoImage from "../../../elements/itodo-img";
 import SectionCounter1 from "./section-counter1";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 function SectionAboutCompany() {
   return (
@@ -36,10 +37,10 @@ function SectionAboutCompany() {
                     </div>
                     <div className="sx-ab-circle-box">
                       <div className="sx-ab-circle-box-content">
-                        <span className="sx-exp">3+ Years Experience</span>
+                        <span className="sx-exp">3+ Years of Innovation</span>
                         <div className="sx-exp-title-outer">
-                          <span className="sx-exp-title-1">It</span>
-                          <span className="sx-exp-title-2">Solutions</span>
+                          {/* <span className="sx-exp-title-1">AI</span>
+                          <span className="sx-exp-title-2">Experts</span> */}
                         </div>
                       </div>
                     </div>
@@ -47,23 +48,20 @@ function SectionAboutCompany() {
                 </div>
                 <div className="col-lg-6 col-md-12">
                   <div className="sx-about-bx3-content">
-                    <h2 className="sx-title">Welcome to AI Company</h2>
-                    {/* <span className="sx-title-2">
-                      Nam eu leo nec diam efficitur aliquet lacinia tellus
-                      locusstome.
-                    </span> */}
+                    <h2 className="sx-title">Empowering Businesses with AI</h2>
                     <p>
-                      At AI Company, we believe in using technology not just as a
-                      tool, but as a catalyst for growth. Our team of expert
-                      developers, designers, and strategists work closely with
-                      you to craft custom digital solutions that propel your
-                      business forward in a fast-evolving world.
+                      Ankush Tech Solutions is dedicated to harnessing the power
+                      of artificial intelligence and cutting-edge technology to
+                      drive business success. Our team of experts specializes in
+                      AI-driven solutions, custom software development, and
+                      strategic digital transformation to help businesses thrive
+                      in the modern digital age.
                     </p>
                     <div className="row sx-about-icon-bx3-column">
                       <div className="col-lg-5 col-md-6">
                         <div className="sx-icon-bx-3">
                           <div className="sx-media">
-                            <i className="flaticon-incoming-call" />
+                            <FaPhoneAlt />
                           </div>
                           <div className="sx-icon-bx-info">
                             <span className="sx-icon-bx-title-info">
@@ -78,7 +76,7 @@ function SectionAboutCompany() {
                       <div className="col-lg-7 col-md-6">
                         <div className="sx-icon-bx-3">
                           <div className="sx-media">
-                            <i className="flaticon-email-1" />
+                            <FaEnvelope />
                           </div>
                           <div className="sx-icon-bx-info">
                             <span className="sx-icon-bx-title-info">

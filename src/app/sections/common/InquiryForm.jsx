@@ -32,7 +32,7 @@ const InquiryForm = ({ setLoading }) => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message - AI Company",
+      subject: "You have a new message - Ankush Tech Solutions",
       body: emailBody,
     };
 

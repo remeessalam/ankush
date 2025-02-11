@@ -32,7 +32,7 @@ const ContactForm = ({ setLoading }) => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message - 45Caliber AI",
+      subject: "You have a new message - Ankush Tech Solutions",
       body: emailBody,
     };
 
@@ -59,7 +59,7 @@ const ContactForm = ({ setLoading }) => {
       .finally(() => setLoading(false));
   };
   return (
-    <div id='contact' className="container p-t30">
+    <div id="contact" className="container p-t30">
       {/* GOOGLE MAP & CONTACT FORM */}
       <div className="section-content">
         {/* CONTACT FORM*/}
@@ -72,7 +72,7 @@ const ContactForm = ({ setLoading }) => {
                 <div className="sx-head-l-title">
                   <h2 className="sx-title">Connect with us</h2>
                   <p>
-                    Let AI Company be the catalyst for your digital
+                    Let Ankush Tech Solutions be the catalyst for your digital
                     transformation. Together, we can build solutions that are as
                     dynamic as your vision, helping your business reach new
                     heights.
@@ -130,7 +130,7 @@ const ContactForm = ({ setLoading }) => {
                     </div>
                   </div>
                 </div>
-                <div className="ccol-lg-6 col-md-6 m-b30">
+                {/* <div className="ccol-lg-6 col-md-6 m-b30">
                   <div className="sx-icon-bx-5">
                     <div className="sx-media">
                       <i className="flaticon-map-location" />
@@ -142,7 +142,7 @@ const ContactForm = ({ setLoading }) => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -206,8 +206,7 @@ const ContactForm = ({ setLoading }) => {
                         required: "Phone number is required",
                         pattern: {
                           value: /^\+?[0-9]{10,15}$/,
-                          message:
-                            "Entered phone number is invalid",
+                          message: "Entered phone number is invalid",
                         },
                       })}
                     />
@@ -244,7 +243,7 @@ const ContactForm = ({ setLoading }) => {
                       className="site-button sx-btn-primary icon sx-btn-lg"
                     >
                       <i className="fa  fa-long-arrow-right" />
-                      {isSubmitting?"Sending Message":"Send Message"}
+                      {isSubmitting ? "Sending Message" : "Send Message"}
                     </button>
                   </div>
                 </form>

@@ -30,9 +30,10 @@ function Services() {
               </h2>
               <p className="mt-3">
                 Let’s create something extraordinary together. Reach out to
-                AI Company to discover how our custom software, AI, and digital
-                solutions can drive your business to new heights. From concept
-                to execution, we’re here to bring your vision to life.
+                Ankush Tech Solutions to discover how our custom software, AI,
+                and digital solutions can drive your business to new heights.
+                From concept to execution, we’re here to bring your vision to
+                life.
               </p>
             </div>
           </div>

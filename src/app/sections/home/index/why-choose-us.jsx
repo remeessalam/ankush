@@ -1,3 +1,4 @@
+import { FaTools, FaHandshake } from "react-icons/fa";
 import ItodoImage from "../../../elements/itodo-img";
 
 function WhyChooseUs() {
@@ -15,36 +16,22 @@ function WhyChooseUs() {
                   <div className="sx-about-bx1-content">
                     <h2 className="sx-title">Why Choose Us?</h2>
                     <p>
-                      When it comes to technology, there’s no one-size-fits-all
-                      approach. At AI Company, we believe in building long-term
-                      partnerships, where we work with you to understand your
-                      needs and create tailored solutions that bring lasting
-                      value to your business. Our team combines technical
-                      expertise with a dedication to quality, ensuring that
-                      every project we deliver is designed to help you achieve
-                      your goals and excel in today’s digital landscape.
+                      We don’t just build solutions—we build partnerships. Our
+                      expert team is dedicated to delivering cutting-edge
+                      digital solutions tailored to your business needs. Whether
+                      it’s web development, AI solutions, or digital strategy,
+                      we focus on innovation, efficiency, and excellence to help
+                      you stay ahead in the digital landscape.
                     </p>
-                    {/* <div className="progress">
-                      <div
-                        className="progress-bar sx-bg-primary"
-                        role="progressbar"
-                        style={{ width: "75%" }}
-                        aria-valuenow={75}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
-                      >
-                        <span>95.00% Work Success</span>
-                      </div>
-                    </div> */}
                     <div className="row sx-about-icon-bx1-column">
                       <div className="col-lg-6 col-6">
                         <div className="sx-icon-bx-2">
                           <div className="sx-media">
-                            <i className="flaticon-mouse" />
+                            <FaTools />
                           </div>
                           <div className="sx-icon-bx-info">
                             <span className="sx-icon-bx-title">
-                              IT Solution
+                              Advanced Tech Solutions
                             </span>
                           </div>
                         </div>
@@ -52,11 +39,11 @@ function WhyChooseUs() {
                       <div className="col-lg-6 col-6">
                         <div className="sx-icon-bx-2">
                           <div className="sx-media">
-                            <i className="flaticon-download" />
+                            <FaHandshake />
                           </div>
                           <div className="sx-icon-bx-info">
                             <span className="sx-icon-bx-title">
-                              IT Consultant
+                              Client-Centric Approach
                             </span>
                           </div>
                         </div>
@@ -81,9 +68,6 @@ function WhyChooseUs() {
                 </div>
               </div>
             </div>
-            {/* COUNTER START */}
-            {/* <SectionCounter1 /> */}
-            {/* COUNTER  END */}
           </div>
         </div>
       </div>

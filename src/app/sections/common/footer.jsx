@@ -1,7 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { companyDetails, logo } from "../../../globals/constants";
 
-
 function Footer() {
   return (
     <>
@@ -20,7 +19,7 @@ function Footer() {
                   </div>
                   <p>
                     Empowering growth through innovation and commitment. At
-                    AI Company, we deliver solutions that drive
+                    Ankush Tech Solutions, we deliver solutions that drive
                     success and build lasting partnerships. Your journey, our
                     expertise.
                   </p>
@@ -97,8 +96,8 @@ function Footer() {
             </ul>
           </div>
           <div className="sx-f-copy">
-            © 2024 by <NavLink to="/">AI Company.</NavLink>{" "}
-            All rights reserved.
+            © 2024 by <NavLink to="/">Ankush Tech Solutions.</NavLink> All
+            rights reserved.
           </div>
         </div>
         {/* FOOTER COPYRIGHT */}
