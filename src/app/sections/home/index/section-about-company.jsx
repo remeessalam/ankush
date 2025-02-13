@@ -28,7 +28,7 @@ function SectionAboutCompany() {
                     <div className="sx-ab3-img-outer">
                       <div className="sx-ab3-media">
                         <img
-                          src={publicUrlFor("images/about/p2.webp")}
+                          src={publicUrlFor("images/about/p2.jpg")}
                           style={{ aspectRatio: "1", objectFit: "cover" }}
                           className="w-100 h-100 rounded"
                           alt="media"

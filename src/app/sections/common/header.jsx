@@ -38,6 +38,7 @@ function Header() {
                 data-target=".header-nav"
                 data-toggle="collapse"
                 className="navbar-toggler collapsed"
+                style={{ color: "white !important" }}
                 onClick={toggleNavClass}
               >
                 <span className="sr-only">Toggle navigation</span>
@@ -134,4 +135,3 @@ function Header() {
 }
 
 export default Header;
-

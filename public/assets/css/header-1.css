@@ -12,7 +12,7 @@ header-style1 {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: #ffff;
+  background: #000000;
 }
 .header-style1.site-header ul,
 .header-style1.site-header ol {
@@ -45,7 +45,7 @@ header-style1 {
   -------------------------------------*/
 
 .header-style1 .logo-header .header-logo-main {
-  width: 12rem;
+  width: 6rem;
 }
 .header-style1 .logo-header {
   display: table;
@@ -231,7 +231,7 @@ header-style1 {
 }
 
 .header-style1 .navbar-toggler .icon-bar {
-  background: #263045;
+  background: #ffffff;
   height: 3px;
   border-radius: 0;
   display: block;
@@ -282,7 +282,8 @@ header-style1 {
   font-family: var(--title-family);
   font-size: 18px;
   line-height: 40px;
-  color: var(--secondary);
+  color: white;
+  /* color: var(--secondary); */
   position: relative;
   transition: var(--transition);
 }
@@ -943,7 +944,7 @@ header-style1 {
   padding: 13px 0;
 }
 .header-style1 .is-fixed .color-fill.main-bar {
-  background: var(--white);
+  background: var(--black);
 }
 
 @media (max-width: 991px) {

@@ -13,9 +13,9 @@ Version: 1.0
 @import url(header-3.css);
 
 :root {
-  --primary: #332657;
+  --primary: #5fa2dc;
   --secondary: #190b3e;
-  --secondary-light: #332657d7;
+  --secondary-light: #5fa2dcd7;
   --white: #fff;
   --title-color: #190b3e;
   --title-family: "Manrope", sans-serif;

@@ -24,7 +24,7 @@ function SectionSlider1() {
             class="sx-bnr-1-wrap swiper-slide overlay-overlay"
             style={{
               backgroundImage: `url(${publicUrlFor(
-                "images/main-slider/slider1/slide-1.webp"
+                "images/main-slider/slider1/slide-1.jpg"
               )})`,
             }}
           >
@@ -65,7 +65,7 @@ function SectionSlider1() {
             class="sx-bnr-1-wrap swiper-slide overlay-overlay"
             style={{
               backgroundImage: `url(${publicUrlFor(
-                "images/main-slider/slider1/slide-2.webp"
+                "images/main-slider/slider1/slide-2.jpg"
               )})`,
             }}
           >
