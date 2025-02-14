@@ -112,7 +112,10 @@ const ContactForm = ({ setLoading }) => {
                         href="#"
                         className="sx-icon-bx-title"
                       >
-                        {companyDetails.email}
+                        {/* {companyDetails.email} */}
+                        anmolashok@
+                        <br />
+                        ankushtech.com
                       </Link>
                     </div>
                   </div>
@@ -127,6 +130,26 @@ const ContactForm = ({ setLoading }) => {
                       <p className="sx-icon-bx-title">
                         {companyDetails.address}
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 m-b30">
+                  <div className="sx-icon-bx-5">
+                    <div className="sx-media">
+                      <i className="flaticon-email-2" />
+                    </div>
+                    <div className="sx-icon-bx-info">
+                      <p className="sx-icon-bx-title-info">Mail</p>
+                      <Link
+                        to={`mailto:${companyDetails.email2}`}
+                        href="#"
+                        className="sx-icon-bx-title"
+                      >
+                        {/* {companyDetails.email} */}
+                        Anmol.gowdru.a
+                        <br />
+                        @gmail.com
+                      </Link>
                     </div>
                   </div>
                 </div>

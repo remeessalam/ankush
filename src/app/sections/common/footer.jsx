@@ -56,6 +56,14 @@ function Footer() {
                         <p>{companyDetails.email}</p>
                       </div>
                     </li>
+                    <li>
+                      <div className="widget-info-icon">
+                        <i className="flaticon-email" />
+                      </div>
+                      <div className="widget-info-detail">
+                        <p>{companyDetails.email2}</p>
+                      </div>
+                    </li>
                     {/* <li>
                       <div className="widget-info-icon">
                         <i className="flaticon-maps-and-flags" />
